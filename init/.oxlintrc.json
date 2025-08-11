@@ -1235,30 +1235,22 @@
   "overrides": [
     {
       "files": [
-        "packages/tool-*/**/*",
-        "packages/library-dbml/**/*",
-        "packages/data-model-*/mocks/*",
-        "packages/data-model-*/seeds/*",
-        "packages/job-*/**/*"
+        "packages/datamodels/*/mocks/*",
+        "packages/datamodels/*/seeds/*",
+        "packages/jobs/**/*"
       ],
       "rules": {
         "no-console": "off"
       }
     },
     {
-      "files": ["packages/frontend-*/src/main.tsx"],
+      "files": ["packages/frontend/src/main.tsx"],
       "rules": {
         "@typescript-eslint/no-non-null-assertion": "off"
       }
     },
     {
-      "files": ["packages/*/test-runner-jest.config.js"],
-      "rules": {
-        "@typescript-eslint/no-require-imports": "off"
-      }
-    },
-    {
-      "files": ["packages/function-*/index.ts"],
+      "files": ["packages/functions/*/index.ts"],
       "rules": {
         "import/first": "off"
       }
