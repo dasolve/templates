@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"github.copilot",
+		"github.copilot-chat",
+		"github.vscode-pull-request-github",
+		"moonrepo.moon-console",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"redhat.vscode-yaml",
+		"mtxr.sqltools",
+		"mtxr.sqltools-driver-pg",
+		"matt-meyers.vscode-dbml",
+		"github.vscode-github-actions"
+	]
+}

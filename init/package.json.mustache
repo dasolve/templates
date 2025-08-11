@@ -1,0 +1,21 @@
+{
+  "name": "{{ name }}",
+  "description": "{{ name }} Monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend",
+    "packages/datamodels/*",
+    "packages/functions/*",
+    "packages/jobs/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "22.14.1",
+    "prettier": "3.5.3",
+    "oxlint": "1.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
