@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "references": [
+    {
+      "path": "packages/frontend"
+    },
+    {
+      "path": "packages/backend"
+    }
+  ],
+  "compilerOptions": {
+    "outDir": "./tsbuild",
+    "baseUrl": "./"
+  }
+}
