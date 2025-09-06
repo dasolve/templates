@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "baseUrl": ".",
+    "outDir": "./tsbuild"
+  },
+  "include": [
+    ".storybook/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "docusaurus.config.ts",
+    "sidebars.ts",
+    "package.json",
+    "**/*.module.css"
+  ]
+}
